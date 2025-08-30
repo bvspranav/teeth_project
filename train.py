@@ -5,7 +5,7 @@ model = YOLO('yolov8s.pt')
 
 # Train the model
 model.train(
-    data='C:/Users/bvspranav999/OneDrive/Desktop/Environment Project/Dental_Teeth_Project/dental_data.yaml',
+    data='C:/Users/bvspranav999/OneDrive/Desktop/Environment Project/Dental_Teeth_Project/dental_data.yaml',   # update path to the actual path
     imgsz=640,         
     epochs=10,         
     batch=8,            
